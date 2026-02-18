@@ -123,7 +123,26 @@ button {
 .btn-sci { color: #00d2ff; font-size: 0.8rem; }
 
 button:active { transform: scale(0.9); opacity: 0.8; }
-
+/* Tools button fix */
+.tools-btn-wrap {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.tools-btn-wrap button {
+    width: auto !important;
+    height: auto !important;
+    border-radius: 20px !important;
+    padding: 8px 22px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 1px solid rgba(255,255,255,0.25) !important;
+    color: white !important;
+    display: inline-block !important;
+    margin: 0 !important;
+}
 .btn-mode-small {
     width: auto !important;
     height: auto !important;
