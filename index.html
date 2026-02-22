@@ -73,5 +73,10 @@
 
     <audio id="popSound" src="https://www.soundjay.com/buttons/sounds/button-16.mp3"></audio>
     <script src="Script.js"></script>
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
 </body>
 </html>
