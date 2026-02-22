@@ -5,8 +5,6 @@ const FILES = [
   '/tools.html',
   '/style.css',
   '/Script.js',
-  '/manifest.json',
-  '/icon.png'
 ];
 
 self.addEventListener('install', e => {
